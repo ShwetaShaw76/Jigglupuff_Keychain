@@ -655,12 +655,6 @@
 		(color 0 0 0 0)
 		(uuid "6f016e09-7451-4d58-85fd-d4702f5b75ae")
 	)
-	(junction
-		(at 148.59 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a70c426-e84f-4cf7-b684-6eecd2703c2b")
-	)
 	(wire
 		(pts
 			(xy 120.65 77.47) (xy 120.65 80.01)
@@ -683,6 +677,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 76.2) (xy 148.59 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165b1eed-eba9-42f4-9b8d-c6c6e7f10124")
+	)
+	(wire
+		(pts
 			(xy 120.65 58.42) (xy 92.71 58.42)
 		)
 		(stroke
@@ -690,16 +694,6 @@
 			(type default)
 		)
 		(uuid "20cf2c39-64dd-4a3e-925c-329f287de341")
-	)
-	(wire
-		(pts
-			(xy 148.59 77.47) (xy 148.59 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cb1001c-2ffb-4c03-ae8e-37bb4f155024")
 	)
 	(wire
 		(pts
@@ -743,16 +737,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 148.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b6c414-b7a6-46d1-8933-e24de001c96a")
-	)
-	(wire
-		(pts
 			(xy 92.71 58.42) (xy 67.31 58.42)
 		)
 		(stroke
@@ -760,16 +744,6 @@
 			(type default)
 		)
 		(uuid "b2a86180-91c5-4679-a5c8-71ce11e60365")
-	)
-	(wire
-		(pts
-			(xy 148.59 68.58) (xy 148.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6906fb2-cc2c-4f4a-aa4f-685a840b71bc")
 	)
 	(wire
 		(pts
@@ -946,76 +920,6 @@
 			(project ""
 				(path "/6b1a3850-b159-4b8c-9c15-11a3f2b97aa2"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 148.59 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2453ec81-2dab-432f-9857-2773c40e98c2")
-		(property "Reference" "R5"
-			(at 151.13 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 151.13 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 146.812 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 148.59 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ffea0bb-4408-42a5-bf26-f1f3550d5261")
-		)
-		(pin "2"
-			(uuid "a31924c0-544d-4f66-afe5-b2c1cdf37971")
-		)
-		(instances
-			(project "solder"
-				(path "/6b1a3850-b159-4b8c-9c15-11a3f2b97aa2"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -1436,6 +1340,76 @@
 			(project ""
 				(path "/6b1a3850-b159-4b8c-9c15-11a3f2b97aa2"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8987247-1578-49f8-a381-c88c69a50be0")
+		(property "Reference" "R5"
+			(at 151.13 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 151.13 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 146.812 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a522eca9-c878-4a38-9862-8f076989e05d")
+		)
+		(pin "2"
+			(uuid "3e88a264-4da4-4407-a732-63bb2ccc6dc9")
+		)
+		(instances
+			(project "solder"
+				(path "/6b1a3850-b159-4b8c-9c15-11a3f2b97aa2"
+					(reference "R5")
 					(unit 1)
 				)
 			)
